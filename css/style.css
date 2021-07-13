@@ -1,0 +1,86 @@
+body{
+  background-color: rgb(199, 194, 194);
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+h2,h3 {
+text-align: center;
+padding-top: 40px;
+font-style: italic;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black
+
+}
+
+
+#username{  
+  width: 400px;  
+  height: 20px;  
+  border: none;
+  border-radius: 3px;  
+  padding-left: 8px;  
+}  
+
+
+#password{  
+  width: 400px;
+  height: 20px;  
+  border: none;    
+  padding-left: 8px;  
+}  
+
+
+h6{
+  font-style: italic;
+  text-align:center;
+  color: whitesmoke;
+  padding-bottom: 40px;
+
+}
+
+#leftbox {
+  float:left; 
+  background:#264653;
+  width:50%;
+  height:550px;
+}
+
+
+#rightbox{
+  float:right;
+  background:whitesmoke;
+  width:50%;
+  height:550px;
+  overflow: hidden;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+  margin-left: center;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
